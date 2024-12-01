@@ -1,0 +1,25 @@
+body {
+  background: linear-gradient(135deg, #00bcd4, #8e24aa);
+  font-family: Arial, sans-serif;
+}
+
+.calculator {
+  background: #ffffff;
+  width: 300px;
+  border-radius: 8px;
+}
+
+.screen input {
+  height: 60px;
+  font-size: 24px;
+  border: none;
+  background: #f1f3f4;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.buttons .btn {
+  font-size: 20px;
+  height: 60px;
+  border-radius: 5px;
+}
