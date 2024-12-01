@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' , sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #d3d3d3, #e6e6e6);
+  }
+  
+  .container {
+    position: relative;
+    width: 850px;
+    height: 500px;
+    background: #fff;
+    display: flex;
+    border-radius: 30px;
+    box-shadow: 0 0 30px 10px rgba(0, 0, 0, 2);
+  }
+  
+  .form-container {
+    width: 100%;
+    display: flex;
+  }
+  
+  .form-left, .form-right {
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-left {
+    background: #276bb9;
+    color: #fff;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  
+  .form-left h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .form-left button {
+    background: transparent;
+    border: 2px solid #fff;
+    padding: 8px 20px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  .form-left button:hover {
+    background: #fff;
+    color: #4a90e2;
+  }
+  
+  .form-right h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .input-group {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  .input-group i {
+    position: absolute;
+    color: #888;
+  }
+  
+  .forgot-password {
+    font-size: 14px;
+    color: #666;
+    text-align: right;
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #4a90e2;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  .container p {
+    font-size: 14.5px;
+    margin: 15px 0;
+
+  }
+  .btn:hover {
+    background: #357abd;
+  }
+  .container p {
+    font-size: 14.5px;
+    margin: 15px 0;
+  }
+  .social-icons {
+    display: inline-flex;
+    padding: 0px;
+    border :1px solid #ccc;
+    border-radius: 5px;
+    font-size: 30px;
+    color:#333;
+    text-decoration: none;
+    margin: 0 8px;
+  }
+  
+  .social-btn {
+    background: #f5f5f5;
+    border: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .social-btn:hover {
+    background: #ddd;
+  }
+  .rowInput {
+    display: flex;
+  }
