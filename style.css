@@ -1074,13 +1074,13 @@ section:nth-child(even) .animate.scroll,
         font-size: 50%;
     }
 
+
     
 
     .education-section{
         padding: 10rem 4% 5rem 5%;
     }
 }
-
 
 @media (max-width: 400px){
     .footer{
